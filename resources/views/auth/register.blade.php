@@ -56,7 +56,7 @@
 <script>
     function redirectToLogin() {
         // Redirect to login page
-        window.location.href = "/login";
+        window.location.href = "/";
 
         // Show alert
         alert("You just signed in");
