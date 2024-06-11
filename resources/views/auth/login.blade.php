@@ -3,6 +3,8 @@
 @section('title', 'Login Page')
 
 @section('content')
+<form action="{{ route('login') }}" method="POST">
+
 <div class="h-full w-full bg-[#E0E0E0]">
     <div class="max-w-[1240px] grid grid-cols-2 rounded h-screen mx-auto py-8">
         <div class="bg-white px-20 flex flex-col justify-center rounded-l-2xl">
@@ -57,4 +59,5 @@
         </div>
     </div>
 </div>
+</form>
 @endsection
